@@ -16,3 +16,6 @@ module URLShortener
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+defaults:
+	domain: "localhost:3000"
