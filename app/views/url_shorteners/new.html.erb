@@ -1,0 +1,8 @@
+<div>
+	New!<br><br>
+	<%= form_for @inputurl, url: url_shorteners_path do |f|  %>
+		<%= f.label :URL %>
+		<%= f.text_field :input_url %>
+		<%= f.submit "Create Url_Shortener" %>
+	<% end %>
+</div>

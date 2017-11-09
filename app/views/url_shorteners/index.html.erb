@@ -1,0 +1,10 @@
+
+<% @urls.each do |u| %>
+
+		<%= label_tag "temp_url", "#{u.main_domain}/#{u.temp_url}" %><br><br>	
+
+<% end %><br><br>
+
+<%= link_to "Back", new_url_shortener_path %>
+
+
